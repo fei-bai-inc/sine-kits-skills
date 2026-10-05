@@ -1,6 +1,6 @@
 ---
 name: use-sine-kit
-description: Use any installed Sine Kit through the shared CLI: log in, discover operations and their schemas, submit explicit work, follow the same durable run and read authorized records or private assets. Not for authoring or publishing Kits.
+description: "Use any installed Sine Kit through the shared CLI: log in, discover operations and their schemas, submit explicit work, follow the same durable run and read authorized records or private assets. Not for authoring or publishing Kits."
 ---
 
 # Use an installed Sine Kit
