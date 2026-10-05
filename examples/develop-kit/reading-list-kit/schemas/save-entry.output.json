@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Persisted installation-scoped record returned only by a successful run. The ID is a record reference, not generated article content.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "installationId", "type", "data", "createdAt", "updatedAt"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Record reference for records.get within this installation."
+    },
+    "installationId": {
+      "type": "string",
+      "description": "Authorized installation owning this private record."
+    },
+    "type": {
+      "const": "reading-entry"
+    },
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "note"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160,
+          "pattern": "\\S",
+          "description": "User-approved article title; trimmed before saving."
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048,
+          "pattern": "^https?://",
+          "description": "Absolute HTTP/HTTPS article URL without embedded credentials. Only stored; never fetched."
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 1000,
+          "description": "Short user-authored note; empty string is allowed. No generated content."
+        }
+      }
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    }
+  }
+}

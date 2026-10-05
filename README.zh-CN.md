@@ -44,3 +44,7 @@ owner 在浏览器登录，明确批准安装、版本、操作、资源权限�
 `agent logout` 撤销该 Grant 后删除本机凭证；`forget` 只删本机文件。次数不是金额预算，外部 Provider 副作用需要明确用户意图和 owner 能力授权。
 
 CLI/contracts 0.3.0 仍须单独 npm 发布，不能用本地 archive 证明公共下载可用。
+
+## 真实示例
+
+[Reading List Kit 示例](./examples/README.zh-CN.md) 分别提供开发/使用提示、真实 Agent 编写的 Kit 快照和日期证据。使用需求不提供 operation ID 或 JSON 字段，必须通过通用技能发现合同，而不是领域 Skill。公开包安装与明确标识的本地 release-candidate 验收分开记录。

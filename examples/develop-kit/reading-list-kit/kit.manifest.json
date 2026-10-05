@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "reading-list-kit",
+  "version": "0.1.0",
+  "platformApiVersion": "1",
+  "site": { "adapter": "static-vite", "entry": "site/index.html" },
+  "runtime": { "adapter": "node-isolated", "nodeMajor": 24 },
+  "operations": [
+    {
+      "id": "entries.save",
+      "description": "Save a user-approved title, HTTP/HTTPS article URL and short note as a private reading-entry record in the current installation. Requires records.write. Runs asynchronously: wait for authoritative succeeded status before treating the returned record as saved. Returns the persisted record and its installation-scoped ID; reads no article, generates no content and calls no Provider. Use a stable submission idempotency key for retries.",
+      "handler": "src/operations/save-entry.ts",
+      "inputSchema": "schemas/save-entry.input.json",
+      "outputSchema": "schemas/save-entry.output.json",
+      "requiredCapabilities": ["records.write"],
+      "effects": ["record-write"],
+      "execution": "async"
+    }
+  ],
+  "locales": ["en", "zh-CN"]
+}

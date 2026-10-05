@@ -1,0 +1,30 @@
+{
+  "name": "reading-list-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "sine-kit check",
+    "build": "sine-kit build",
+    "dev": "sine-kit dev",
+    "preview": "sine-kit preview",
+    "publish:kit": "sine-kit publish --env preview"
+  },
+  "dependencies": {
+    "@sine-kits/kit-contracts": "0.3.0",
+    "@sine-kits/kit-sdk": "0.2.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@sine-kits/kit-cli": "0.3.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.8.3",
+    "vite": "7.1.5"
+  },
+  "engines": {
+    "node": ">=24.15.0 <25"
+  },
+  "packageManager": "pnpm@9.4.0"
+}

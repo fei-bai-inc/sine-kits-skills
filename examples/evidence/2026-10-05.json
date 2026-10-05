@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-05",
+  "host": {
+    "name": "Codex CLI",
+    "version": "0.160.0",
+    "developerSession": "01a10c80-e295-7b42-8e82-5da3eac2c3fd",
+    "usageSession": "01a10c97-db30-7a40-a909-784be0681910",
+    "revocationSession": "01a10c9c-11c7-7ba0-ad9b-8ab5528cf8ec"
+  },
+  "skillSource": {
+    "repository": "https://github.com/fei-bai-inc/sine-kits-skills",
+    "commit": "766dc66",
+    "skills": [
+      "develop-sine-kit",
+      "use-sine-kit"
+    ],
+    "domainSkill": false
+  },
+  "environment": {
+    "node": "24.15.0",
+    "pnpm": "9.4.0",
+    "packages": "explicitly authorized local contracts/CLI0.3.0 release archives; public SDK0.2.0/react/vite",
+    "platform": "real isolated Node backend/worker/SQLite and Docker operations",
+    "browserUI": false,
+    "paidProvider": false
+  },
+  "developer": {
+    "kitId": "reading-list-kit",
+    "version": "0.1.0",
+    "projectId": "d5c8aba5-ca8d-4c3c-ba80-469adfb4f42c",
+    "releaseId": "1635c749-7539-4696-a652-cc06870bf118",
+    "deploymentId": "f626bdb2-d646-44ff-bf7d-3bf1ee4a4e44",
+    "digest": "eae03363228c5b37fdc15a051bc72b4e74eea2a04f74183c284b49e15a0b4a18",
+    "files": 10,
+    "checkExit": 0,
+    "typecheckExit": 0,
+    "buildExit": 0,
+    "previewState": "ready",
+    "loadedSkill": true,
+    "wroteSource": true,
+    "devAndBuiltRuntimeRecordVerified": true,
+    "meaningfulRejections": [
+      "non-HTTP URL",
+      "blank title",
+      "URL with credentials"
+    ],
+    "publishCount": 1
+  },
+  "usage": {
+    "authorization": "real generic code/state/S256 CLI login for disposable owner fixture; no human browser claim",
+    "sourceAccess": false,
+    "operationIdProvided": false,
+    "inputFieldsProvided": false,
+    "loadedSkill": true,
+    "discoveredOperation": "entries.save",
+    "discoveredInputKeys": [
+      "title",
+      "url",
+      "note"
+    ],
+    "commands": [
+      {
+        "command": "pnpm exec sine-kit --json agent --platform http://localhost:7103 --installation 0797d2e1-5730-434d-8ca0-cd988eec5609 operations list",
+        "exitCode": 0
+      },
+      {
+        "command": "pnpm exec sine-kit --json agent --platform http://localhost:7103 --installation 0797d2e1-5730-434d-8ca0-cd988eec5609 operations inspect entries.save",
+        "exitCode": 0
+      },
+      {
+        "command": "pnpm exec sine-kit --json agent --platform http://localhost:7103 --installation 0797d2e1-5730-434d-8ca0-cd988eec5609 runs submit --operation entries.save --input-file approved-input.json --idempotency-key reading-entry-9176c876-abcf-4f15-8afb-5cfdeae71114",
+        "exitCode": 0
+      },
+      {
+        "command": "pnpm exec sine-kit --json agent --platform http://localhost:7103 --installation 0797d2e1-5730-434d-8ca0-cd988eec5609 runs wait 4f76b971-88f6-4372-a6f5-9d5d3c9a1e97",
+        "exitCode": 0
+      },
+      {
+        "command": "pnpm exec sine-kit --json agent --platform http://localhost:7103 --installation 0797d2e1-5730-434d-8ca0-cd988eec5609 runs get 4f76b971-88f6-4372-a6f5-9d5d3c9a1e97",
+        "exitCode": 0
+      },
+      {
+        "command": "pnpm exec sine-kit --json agent --platform http://localhost:7103 --installation 0797d2e1-5730-434d-8ca0-cd988eec5609 records get d0116251746fd00441016b59b8068d78213f3d85adf83d1c7df861bf1282ade5",
+        "exitCode": 0
+      }
+    ],
+    "runId": "4f76b971-88f6-4372-a6f5-9d5d3c9a1e97",
+    "runState": "succeeded",
+    "record": {
+      "id": "d0116251746fd00441016b59b8068d78213f3d85adf83d1c7df861bf1282ade5",
+      "installationId": "0797d2e1-5730-434d-8ca0-cd988eec5609",
+      "type": "reading-entry",
+      "data": {
+        "title": "Agent Skills verification",
+        "url": "https://agentskills.io/home",
+        "note": "Verify the generic Skill discovers the contract and reads the persisted result."
+      },
+      "createdAt": "2026-10-05T15:05:14.997Z",
+      "updatedAt": "2026-10-05T15:05:14.997Z"
+    },
+    "submitCount": 1,
+    "idempotencyKey": "reading-entry-9176c876-abcf-4f15-8afb-5cfdeae71114",
+    "ownerSawSameRecord": true,
+    "admittedRuns": 1
+  },
+  "revocation": {
+    "code": "FORBIDDEN",
+    "exitCode": 3,
+    "requestId": "9f70e0ec-de0b-4f4e-aae0-901f2017145e",
+    "credentialNotLogged": true
+  },
+  "portableSnapshot": {
+    "checkExit": 0,
+    "typecheckExit": 0,
+    "buildExit": 0,
+    "digest": "bc990d1318accc0fc98c367d620b568e4a10f2695e8934a5e7696402a224489f",
+    "files": 10,
+    "changedOnlyFormattingAndComments": true,
+    "deployed": false
+  },
+  "localFormatCauseFix": {
+    "format": "uri",
+    "runnerStatus": "succeeded",
+    "runId": "ddfa0ab8-4b88-45c4-a720-dfeea8972aad",
+    "recordId": "e2ab29f0ef55f39d8ccee8c3fb9363a1e0a33f7cf9bccb8e6c9cebc620f54315"
+  },
+  "limitations": [
+    "contracts/CLI0.3.0 public npm publication not completed",
+    "human-operated browser authorization and visual inspection not exercised",
+    "no production promotion or remote Cloudflare deployment",
+    "no paid Provider requests",
+    "initial dev unknown uri format exposed a real CLI cause, fixed and separately smoke verified"
+  ]
+}

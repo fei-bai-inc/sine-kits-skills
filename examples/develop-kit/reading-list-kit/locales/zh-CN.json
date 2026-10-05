@@ -1,0 +1,26 @@
+{
+  "brand": "私人阅读手记",
+  "title": "值得再次阅读。",
+  "description": "收藏一篇文章，记下一点想法。建立属于你的阅读清单。",
+  "entryTitle": "标题",
+  "url": "文章链接",
+  "note": "简短笔记",
+  "save": "保存条目",
+  "saving": "正在提交…",
+  "entries": "阅读清单",
+  "empty": "把下一篇好文章留在这里。",
+  "runs": "操作记录",
+  "authorize": "授权安装空间",
+  "launch": "请从 Sine Kits 控制台打开此 Kit，授权安装空间。",
+  "failure": "请求失败，请重试。",
+  "footer": "保存链接与笔记，不生成文章内容。",
+  "language": "语言",
+  "state": {
+    "queued": "排队中",
+    "running": "运行中",
+    "succeeded": "已保存",
+    "failed": "失败",
+    "cancelled": "已取消",
+    "waiting_approval": "等待批准"
+  }
+}

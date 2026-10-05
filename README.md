@@ -45,4 +45,8 @@ The owner signs in and explicitly approves the installation, pinned release, all
 
 CLI/contracts 0.3.0 download commands require their separate npm publication; no local archive is presented as public package distribution.
 
+## Real examples
+
+[Reading List Kit examples](./examples/README.md) provide separate developer and usage prompts plus the actual Agent-authored Kit snapshot and dated evidence. The usage prompt intentionally omits operation IDs and input fields, requiring discovery rather than a domain Skill. Example installation needs the published packages or an explicitly labelled release-candidate setup; evidence states that distinction.
+
 [中文说明](./README.zh-CN.md)

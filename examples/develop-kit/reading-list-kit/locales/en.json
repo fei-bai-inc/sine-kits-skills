@@ -1,0 +1,26 @@
+{
+  "brand": "PRIVATE READING JOURNAL",
+  "title": "Worth returning to.",
+  "description": "Save an article and a thought. Build a reading list that stays yours.",
+  "entryTitle": "Title",
+  "url": "Article URL",
+  "note": "Short note",
+  "save": "Save entry",
+  "saving": "Submitting…",
+  "entries": "Reading list",
+  "empty": "Your next good read belongs here.",
+  "runs": "Operation history",
+  "authorize": "Authorize installation",
+  "launch": "Open this Kit from your Sine Kits console to authorize an installation.",
+  "failure": "Request failed. Please try again.",
+  "footer": "Saved links and your notes. Article content is not generated.",
+  "language": "Language",
+  "state": {
+    "queued": "Queued",
+    "running": "Running",
+    "succeeded": "Saved",
+    "failed": "Failed",
+    "cancelled": "Cancelled",
+    "waiting_approval": "Awaiting approval"
+  }
+}
